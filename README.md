@@ -27,3 +27,19 @@ The following diagram summarizes the global communication process and means used
 ## Electronic Schemes
 
 Now that all of the components have been listed, the global working process of our product known and the communication protocols discovered, we can finally address the matter of the wiring of our different components. You can see below both the circuit in the monitor and the one in the smart bracelet.
+
+### Monitor circuit
+
+![raspb](https://github.com/FerielAmel/Deaf-friendly-baby-monitor/assets/107730108/242e7f7a-5e15-4c13-81c0-e9878e05123e)
+
+
+### Bracelet circuit
+![Arduino_sketch](https://github.com/FerielAmel/Deaf-friendly-baby-monitor/assets/107730108/febb60d9-f008-4cc3-b819-f41e8ab56382)
+
+## Code + Inventory of materials 
+Both the code and list of inventory can be found in the following attached files:
+1. **Raspberry.py**: Contains the python code of the Raspberry Pi 4 which is the monitor's micro-controller.
+2. **ArduinoNano.ino**: Contains the C/C++ code of the Arduino Nano which is the bracelet's micro-controller.
+3. **ESP8266.ino**: Contains the C/C++ code of the ESP8266 which is the micro-controller that will connect the bracelet to the WiFi.
+4. **Project_Report.pdf**: Contains the exhaustive list of all the product's components, their hardware wiring and the software programming of the systems + the potential prospects we consider for our product.
+
